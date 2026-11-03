@@ -2,12 +2,7 @@
 A 100-day journey building embedded systems from scratch—climbing from core Arduino and ESP32 foundations to three capstone projects.
 
 
-
-# 100 Days of Embedded Systems: 100 Projects 
-
 A gradual climb from solid Arduino foundations to three portfolio-grade capstones, primarily built on Arduino and ESP32, featuring a Python-to-C++ bridge starting on Day 16.
-
-# 100 Days of Embedded Systems: 100 Projects 
 
 A gradual climb from solid Arduino foundations to three portfolio-grade capstones, primarily built on Arduino and ESP32, featuring a Python-to-C++ bridge starting on Day 16.
 # 100 Days of Embedded Systems: My 100-Project Journey
