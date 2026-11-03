@@ -1,4 +1,4 @@
-# Day 2: Interrupt-Driven Button Press Counter
+# Day 2: Interrupt Driven Button Press Counter
 
 Moving away from polling (`digitalRead` inside `loop`) to hardware interrupts and robust software debouncing for precise event tracking.
 
