@@ -2,14 +2,24 @@
 A 100 day journey building embedded systems from scratch climbing from core Arduino and ESP32 foundations to three capstone projects.
 
 
+
 A gradual climb from solid Arduino foundations to three portfolio grade capstones, primarily built on Arduino and ESP32, featuring a Python to C++ bridge starting on Day 16.
 
 A gradual climb from solid Arduino foundations to three portfolio grade capstones, primarily built on Arduino and ESP32, featuring a Python to C++ bridge starting on Day 16.
+
+
+The plan was drafted by Claude, I build, code and document every project myself.
+Full plan: [docs/PLAN.md](docs/PLAN.md)
+
 # 100 Days of Embedded Systems: My 100 Project Journey
 
 This repository logs my personal challenge to build 100 hardware and embedded systems projects over 100 days climbing from fundamental register level and library free C++ on Arduino to advanced ESP32 networking, RTOS, and portfolio capstones.
 
-   
+# 100 Days of Electronics
+Arduino and ESP32 projects, one a day, ending in three capstone projects.
+
+
+
 
 ##  The Goal
 To build a hands on, practical engineering portfolio. Every day represents one self contained project (2–4 hours) that ends with working code, hardware execution, and clear documentation.
