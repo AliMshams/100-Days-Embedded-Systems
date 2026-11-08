@@ -9,7 +9,7 @@ A gradual climb from solid Arduino foundations to three portfolio grade capstone
 
 
 The plan was drafted by Claude, I build, code and document every project myself.
-Full plan: [docs/PLAN.md](docs/PLAN.md)
+Full plan: [Docs/PLAN.md](Docs/PLAN.md)
 
 # 100 Days of Embedded Systems: My 100 Project Journey
 
