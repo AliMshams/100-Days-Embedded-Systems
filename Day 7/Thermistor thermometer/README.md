@@ -9,7 +9,7 @@ Reads a voltage divider into A0, averages 64 rapid readings to eliminate noise, 
 
 ## Wiring
 
-**5V** -> 10 kΩ Resistor -> **A0** → 10 kΩ Thermistor -> **GND**.
+**5V** -> 10 kΩ Resistor -> **A0** -> 10 kΩ Thermistor -> **GND**.
 
 ## How it works
 
@@ -27,8 +27,8 @@ Reads a voltage divider into A0, averages 64 rapid readings to eliminate noise, 
 
 ## What broke (and what I learned)
 
-* **The Absolute Zero Trap:** Early on, the code spat out `-273.1 °C` because a typo or bad calculation caused the denominator to hit zero, triggering a division-by-zero crash that plunged the math straight into absolute zero. Using `1023.0 - raw` with a floating-point number fixed it.
-* **Variable Mix-up:** Accidentally typed `1 / T` instead of `1 / T0` inside the Beta equation formula, which broke the baseline reference point (`T0 = 298.15` for 25 °C).
+* **The Absolute Zero Trap:** Early on, the code spat out `-273.1 °C` because a typo or bad calculation caused the denominator to hit zero, triggering a division by zero crash that plunged the math straight into absolute zero. Using `1023.0 - raw` with a floating-point number fixed it.
+* **Variable Mix up:** Accidentally typed `1 / T` instead of `1 / T0` inside the Beta equation formula, which broke the baseline reference point (`T0 = 298.15` for 25 °C).
 * **Logarithmic Reality:** Learned that you can't just use simple multiplication for a thermistor because its resistance changes exponentially, which is why the natural logarithm (`log()`) is required to make sense of the curve.
 
 ## Files
