@@ -33,4 +33,4 @@ Reads a voltage divider into A0, averages 64 rapid readings to eliminate noise, 
 
 ## Files
 
-* `day07.ino`
+* `day_7.ino`
