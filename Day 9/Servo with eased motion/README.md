@@ -1,4 +1,4 @@
-# Day 09 - Servo with Eased Motion
+# Day 9 - Servo with Eased Motion
 
 ## What it does
 A potentiometer controls where the servo points (0 to 180 degrees).
