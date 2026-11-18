@@ -1,4 +1,4 @@
-# Day 12 - MPU6050 over Raw I2C
+# Day 12: MPU6050 over Raw I2C
 
 ## What it does
 Reads acceleration data from an MPU6050 sensor using only Wire.h,
